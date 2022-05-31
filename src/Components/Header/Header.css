@@ -1,0 +1,24 @@
+
+.header-area{
+    background-color: #1C2B35;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+.header-area a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 32px;
+}
+
+.header-area a:hover{
+    background-color: #fff;
+    color: #1C2B35;
+    border: 2px solid #1C2B35;
+    border-radius: 12px;
+    padding: 8px;
+}
+
