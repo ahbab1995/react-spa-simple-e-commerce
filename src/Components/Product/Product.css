@@ -40,3 +40,11 @@
 .btn-cart:hover{
     background-color:   #c09e6b;;
 }
+.btn-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-icon{
+    margin-left: 10px;
+}

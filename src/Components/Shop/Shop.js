@@ -12,7 +12,8 @@ const Shop = () => {
 
     const [cart, setCart] = useState([])
     const handleAddtoCart = (product) => {
-        console.log(product)
+       const newCart = [...cart,product];
+       setCart(newCart);
     }
     return (
         <div className='shop-container'>
@@ -22,7 +23,7 @@ const Shop = () => {
                 }
             </div>
             <div className="cart-container">
-                <h4>This is Cart</h4>
+                <h4>This is Cart {cart.length}</h4>
             </div>
         </div>
     );
