@@ -39,7 +39,7 @@ const getShoppingCart = () => {
     if(storedCart){
         shoppingCart = JSON.parse(storedCart);
     }
-    return shoppingCart;
+    return shoppingCart
 }
 
 const deleteShoppingCart = () =>{
